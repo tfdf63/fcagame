@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Пиксель VK -->
+    <script type="text/javascript">
+      !(function () {
+        var t = document.createElement('script');
+        (t.type = 'text/javascript'),
+          (t.async = !0),
+          (t.src = 'https://vk.com/js/api/openapi.js?169'),
+          (t.onload = function () {
+            VK.Retargeting.Init('VK-RTRG-1660580-eap9q'), VK.Retargeting.Hit();
+          }),
+          document.head.appendChild(t);
+      })();
+    </script>
+    <noscript
+      ><img
+        src="https://vk.com/rtrg?p=VK-RTRG-1660580-eap9q"
+        style="position: fixed; left: -999px"
+        alt=""
+    /></noscript>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta content="true" name="HandheldFriendly" />
+    <meta content="width" name="MobileOptimized" />
+    <link rel="stylesheet" href="css/style.min.css?_v=20230125143030" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Memory game</title>
+  </head>
+
+  <body>
+    <header></header>
+
+    <div class="wrapper">
+      <section class="memory-game">
+        <div class="memory__header">
+          <div class="memory__header-title">Найди все пары</div>
+          <div id="watch" class="memory__header-time paused">00:00</div>
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4SLM3A50QJl7gYTyQc8NtRFsLWuVujK3R2EXpC8zT2qCabxBg1pKs0iRs"
+        >
+          <img
+            src="img/num01.svg"
+            alt="yJFnNI4SLM3A50QJl7gYTyQc8NtRFsLWuVujK3R2EXpC8zT2qCabxBg1pKs0iRs"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4yJFnNI4krzpyChNBAccFboAkJ"
+        >
+          <img
+            src="img/plSagutkin.svg"
+            alt="yJFnNI4yJFnNI4krzpyChNBAccFboAkJ"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4SLM3A50QJl7gYTyQc8NtRFsLWuVujK3R2EXpC8zT2qCabxBg1pKs0iRs"
+        >
+          <img src="img/plVolkov.svg" alt="01" class="front-face" />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4kAOp59EZwZ33kzG24NgrcsFxV"
+        >
+          <img
+            src="img/plRogach.svg"
+            alt="yJFnNI4kAOp59EZwZ33kzG24NgrcsFxV"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4kAOp59EZwZ33kzG24NgrcsFxV"
+        >
+          <img
+            src="img/num04.svg"
+            alt="yJFnNI4kAOp59EZwZ33kzG24NgrcsFxV"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI41oK7CP5S2kG7arAPw3lHRmNKx"
+        >
+          <img
+            src="img/plHadzhiniyazov.svg"
+            alt="yJFnNI41oK7CP5S2kG7arAPw3lHRmNKx"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI41oK7CP5S2kG7arAPw3lHRmNKx"
+        >
+          <img
+            src="img/num05.svg"
+            alt="yJFnNI41oK7CP5S2kG7arAPw3lHRmNKx"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4yJFnNI4krzpyChNBAccFboAkJ"
+        >
+          <img
+            src="img/num03.svg"
+            alt="yJFnNI4yJFnNI4krzpyChNBAccFboAkJ"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4l9LZfIi6QzLwfvQauLlb5cNtg"
+        >
+          <img
+            src="img/plMakarov.svg"
+            alt="yJFnNI4l9LZfIi6QzLwfvQauLlb5cNtg"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4l9LZfIi6QzLwfvQauLlb5cNtg"
+        >
+          <img
+            src="img/num06.svg"
+            alt="yJFnNI4l9LZfIi6QzLwfvQauLlb5cNtg"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4R2QxsnBwmalHR2P587XHRvkt1"
+        >
+          <img
+            src="img/plGiraev.svg"
+            alt="yJFnNI4R2QxsnBwmalHR2P587XHRvkt1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4R2QxsnBwmalHR2P587XHRvkt1"
+        >
+          <img
+            src="img/num07.svg"
+            alt="yJFnNI4R2QxsnBwmalHR2P587XHRvkt1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4jf5HBEcdgeUYdnlNAxHRy01CG"
+        >
+          <img
+            src="img/plPesegov.svg"
+            alt="yJFnNI4jf5HBEcdgeUYdnlNAxHRy01CG"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4jf5HBEcdgeUYdnlNAxHRy01CG"
+        >
+          <img
+            src="img/num08.svg"
+            alt="yJFnNI4jf5HBEcdgeUYdnlNAxHRy01CG"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4bs3bpJhptVjq7o16okkXgOnMr"
+        >
+          <img
+            src="img/plAzarov.svg"
+            alt="yJFnNI4bs3bpJhptVjq7o16okkXgOnMr"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4bs3bpJhptVjq7o16okkXgOnMr"
+        >
+          <img
+            src="img/num09.svg"
+            alt="yJFnNI4bs3bpJhptVjq7o16okkXgOnMr"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4fUWryASQKabKJjBbqaBd3oigB"
+        >
+          <img
+            src="img/plPalienko.svg"
+            alt="yJFnNI4fUWryASQKabKJjBbqaBd3oigB"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4fUWryASQKabKJjBbqaBd3oigB"
+        >
+          <img
+            src="img/num10.svg"
+            alt="yJFnNI4fUWryASQKabKJjBbqaBd3oigB"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI42YBnSJroG4Db2R10lmM5HFjmA"
+        >
+          <img
+            src="img/plBazeluk.svg"
+            alt="yJFnNI42YBnSJroG4Db2R10lmM5HFjmA"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI42YBnSJroG4Db2R10lmM5HFjmA"
+        >
+          <img
+            src="img/num11.svg"
+            alt="yJFnNI42YBnSJroG4Db2R10lmM5HFjmA"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI40eulcdHtrYLAfAx7aojp7y3TS"
+        >
+          <img
+            src="img/plfanat.svg"
+            alt="yJFnNI40eulcdHtrYLAfAx7aojp7y3TS"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI40eulcdHtrYLAfAx7aojp7y3TS"
+        >
+          <img
+            src="img/num12.svg"
+            alt="yJFnNI40eulcdHtrYLAfAx7aojp7y3TS"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4prQ16nUBkQXI0VHRY5t72XELj1"
+        >
+          <img
+            src="img/plplApekov.svg"
+            alt="yJFnNI4prQ16nUBkQXI0VHRY5t72XELj1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4prQ16nUBkQXI0VHRY5t72XELj1"
+        >
+          <img
+            src="img/num14.svg"
+            alt="yJFnNI4prQ16nUBkQXI0VHRY5t72XELj1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI429NM5O0ISQXMYo3bTpfLzKRBV1"
+        >
+          <img
+            src="img/plKrivoruchko.svg"
+            alt="yJFnNI429NM5O0ISQXMYo3bTpfLzKRBV1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI429NM5O0ISQXMYo3bTpfLzKRBV1"
+        >
+          <img
+            src="img/num17.svg"
+            alt="yJFnNI429NM5O0ISQXMYo3bTpfLzKRBV1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4yTw7FSYvVCPe1ISt4HAHV95kX1"
+        >
+          <img
+            src="img/plKilin.svg"
+            alt="yJFnNI4yTw7FSYvVCPe1ISt4HAHV95kX1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4yTw7FSYvVCPe1ISt4HAHV95kX1"
+        >
+          <img
+            src="img/num18.svg"
+            alt="yJFnNI4yTw7FSYvVCPe1ISt4HAHV95kX1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4CYFAW5lbtJDO5sfKlQ5WeWedf1"
+        >
+          <img
+            src="img/plplEldarushev.svg"
+            alt="yJFnNI4CYFAW5lbtJDO5sfKlQ5WeWedf1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4CYFAW5lbtJDO5sfKlQ5WeWedf1"
+        >
+          <img
+            src="img/num19.svg"
+            alt="yJFnNI4CYFAW5lbtJDO5sfKlQ5WeWedf1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4MKauoIaKIGxLpxLaVNRw5xHJd1"
+        >
+          <img
+            src="img/plMaruhin.svg"
+            alt="yJFnNI4MKauoIaKIGxLpxLaVNRw5xHJd1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4MKauoIaKIGxLpxLaVNRw5xHJd1"
+        >
+          <img
+            src="img/num20.svg"
+            alt="yJFnNI4MKauoIaKIGxLpxLaVNRw5xHJd1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI46dGna2hOVZXrrppjhSPHSKXkI1"
+        >
+          <img
+            src="img/plChudin.svg"
+            alt="yJFnNI46dGna2hOVZXrrppjhSPHSKXkI1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI46dGna2hOVZXrrppjhSPHSKXkI1"
+        >
+          <img
+            src="img/num27.svg"
+            alt="yJFnNI46dGna2hOVZXrrppjhSPHSKXkI1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4M4GTdey3djx46Z5gbWPuE7KYT1"
+        >
+          <img
+            src="img/plMatveev.svg"
+            alt="yJFnNI4M4GTdey3djx46Z5gbWPuE7KYT1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4M4GTdey3djx46Z5gbWPuE7KYT1"
+        >
+          <img
+            src="img/num31.svg"
+            alt="yJFnNI4M4GTdey3djx46Z5gbWPuE7KYT1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI47UErIgU57Vu8ZS9CLThQfcd6a1"
+        >
+          <img
+            src="img/plSichev.svg"
+            alt="yJFnNI47UErIgU57Vu8ZS9CLThQfcd6a1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI47UErIgU57Vu8ZS9CLThQfcd6a1"
+        >
+          <img
+            src="img/num35.svg"
+            alt="yJFnNI47UErIgU57Vu8ZS9CLThQfcd6a1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI47i8Yp23fPgKewBHrsaTK0PqCk1"
+        >
+          <img
+            src="img/plNagaev.svg"
+            alt="yJFnNI47i8Yp23fPgKewBHrsaTK0PqCk1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI47i8Yp23fPgKewBHrsaTK0PqCk1"
+        >
+          <img
+            src="img/num50.svg"
+            alt="yJFnNI47i8Yp23fPgKewBHrsaTK0PqCk1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4J36qwK3cV9kkWz7U3SZ43eAxd1"
+        >
+          <img
+            src="img/plPopov.svg"
+            alt="yJFnNI4J36qwK3cV9kkWz7U3SZ43eAxd1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4J36qwK3cV9kkWz7U3SZ43eAxd1"
+        >
+          <img
+            src="img/num55.svg"
+            alt="yJFnNI4J36qwK3cV9kkWz7U3SZ43eAxd1"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4Ycdo1sQOan2589CZus0KxHgzTJ"
+        >
+          <img
+            src="img/plZuev.svg"
+            alt="yJFnNI4Ycdo1sQOan2589CZus0KxHgzTJ"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4Ycdo1sQOan2589CZus0KxHgzTJ"
+        >
+          <img
+            src="img/num58.svg"
+            alt="yJFnNI4Ycdo1sQOan2589CZus0KxHgzTJ"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4RFMHud8N0ysUEPd8ofxGghPDK9"
+        >
+          <img
+            src="img/plBart.svg"
+            alt="yJFnNI4RFMHud8N0ysUEPd8ofxGghPDK9"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4RFMHud8N0ysUEPd8ofxGghPDK9"
+        >
+          <img
+            src="img/num59.svg"
+            alt="yJFnNI4RFMHud8N0ysUEPd8ofxGghPDK9"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4toLyggI7B98ekHdcn6N8GQOywy"
+        >
+          <img
+            src="img/plSchakuro.svg"
+            alt="yJFnNI4toLyggI7B98ekHdcn6N8GQOywy"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4toLyggI7B98ekHdcn6N8GQOywy"
+        >
+          <img
+            src="img/num69.svg"
+            alt="yJFnNI4toLyggI7B98ekHdcn6N8GQOywy"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4RtuFirlBuK301hCu0vwYh4P0ZH"
+        >
+          <img
+            src="img/plSavichev.svg"
+            alt="yJFnNI4RtuFirlBuK301hCu0vwYh4P0ZH"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4RtuFirlBuK301hCu0vwYh4P0ZH"
+        >
+          <img
+            src="img/num77.svg"
+            alt="yJFnNI4RtuFirlBuK301hCu0vwYh4P0ZH"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4nb5tn95wUggY8OIYD57tfvIHsa"
+        >
+          <img
+            src="img/plGusev.svg"
+            alt="yJFnNI4nb5tn95wUggY8OIYD57tfvIHsa"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4nb5tn95wUggY8OIYD57tfvIHsa"
+        >
+          <img
+            src="img/num78.svg"
+            alt="yJFnNI4nb5tn95wUggY8OIYD57tfvIHsa"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4jjq9lEn3YSNb4aVJi7KFiqREfA"
+        >
+          <img
+            src="img/plSasin.svg"
+            alt="yJFnNI4jjq9lEn3YSNb4aVJi7KFiqREfA"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4jjq9lEn3YSNb4aVJi7KFiqREfA"
+        >
+          <img
+            src="img/num88.svg"
+            alt="yJFnNI4jjq9lEn3YSNb4aVJi7KFiqREfA"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4hofwCr0uqlUairwxgoTQgZSZn0"
+        >
+          <img
+            src="img/plMalishev.svg"
+            alt="yJFnNI4hofwCr0uqlUairwxgoTQgZSZn0"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4hofwCr0uqlUairwxgoTQgZSZn0"
+        >
+          <img
+            src="img/num90.svg"
+            alt="yJFnNI4hofwCr0uqlUairwxgoTQgZSZn0"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI43aKl3cIfZxOJiILlkMP1ESClPo"
+        >
+          <img
+            src="img/plPoluboyarinov.svg"
+            alt="yJFnNI43aKl3cIfZxOJiILlkMP1ESClPo"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI43aKl3cIfZxOJiILlkMP1ESClPo"
+        >
+          <img
+            src="img/num97.svg"
+            alt="yJFnNI43aKl3cIfZxOJiILlkMP1ESClPo"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4CDWLvvl3r3XZpuUTPWY47R5buL"
+        >
+          <img
+            src="img/plEremin.svg"
+            alt="yJFnNI4CDWLvvl3r3XZpuUTPWY47R5buL"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+        <div
+          class="memory-card"
+          data-framework="yJFnNI4CDWLvvl3r3XZpuUTPWY47R5buL"
+        >
+          <img
+            src="img/num99.svg"
+            alt="yJFnNI4CDWLvvl3r3XZpuUTPWY47R5buL+"
+            class="front-face"
+          />
+          <img src="img/fanc.svg" alt="back" class="back-face" />
+        </div>
+      </section>
+      <section class="modal">
+        <div class="modal__box">
+          <div class="modal__header">
+            <div class="modal__title">Поздравляем!</div>
+            <div class="modal__subtitle">Вы справились за:</div>
+            <div class="modal__result results"></div>
+          </div>
+          <div class="modal__item">
+            <a href="https://vk.com/fcakron_fans"
+              >Сделай скриншот с результатом <br />
+              Отправь в комментарий<br />Перейти >>></a
+            >
+          </div>
+          <a href="/" class="modal__btn">Попробовать ещё</a>
+        </div>
+      </section>
+    </div>
+    <footer></footer>
+
+    <script src="js/app.min.js?_v=20230125143030"></script>
+  </body>
+</html>
